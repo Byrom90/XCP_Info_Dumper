@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns:atg="http://atg.xbox.com" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="xex.xml" />
+    <None Include="xcpid.def" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="xcpid.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="Utilities.cpp" />
+    <ClCompile Include="CoreHooks.cpp" />
+    <ClCompile Include="Detour.cpp" />
+    <ClCompile Include="ExportedFunctions.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Utilities.h" />
+    <ClInclude Include="CoreHooks.h" />
+    <ClInclude Include="Detour.h" />
+    <ClInclude Include="ExportedFunctions.h" />
+  </ItemGroup>
+</Project>

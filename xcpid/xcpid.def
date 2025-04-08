@@ -1,0 +1,7 @@
+LIBRARY      xcpid
+EXPORTS
+	PrintTest				@1
+	XNotifyTest				@2
+    SetGUID					@3
+	DisableReplaceGUID		@4
+	ToggleAddPrints			@6
